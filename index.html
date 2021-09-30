@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alan Godoy | PWA 2021 DWN3A</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="shortcut icon" href="imagenes/logo.svg" type="image/x-icon">
+
+</head>
+
+<body class="d-flex align-items-center">
+
+  <main class="content justify-content-center m-1 m-md-5">
+
+    <div class="card col-12 col-md-8 col-lg-6 p-5 text-white text-center mx-auto d-flex">
+
+      <div class="search row mb-3 justify-content-center">
+
+        <div class="col-12 col-md-9">
+          <input type="text" class="search-bar form-control bg-dark text-white" placeholder="Ingresá una ciudad">
+        </div>
+
+        <button class="btn btn-dark col-10 mt-3 mt-md-0 col-md-3">Buscar</button>
+
+      </div>
+
+      <div class="weather loading row justify-content-center">
+
+        <h1 class="city col-12 p-1 m-0 border-bottom border-secondary">Buenos Aires</h1>
+        <h2 class="temp col-12 pt-3 px-1 pb-1 m-0">Temperatura actual:</h2>
+
+        <div class="col-12 pt-1 px-1 pb-3 m-0 border-bottom border-secondary">
+
+          <img src="https://openweathermap.org/img/wn/04n.png" alt="Clima actual" class="icon" />
+          <p class="description p-1 m-0">Nubes</p>
+
+        </div>
+
+        <p class="temp_max col-12 p-1 m-0">Temperatura máxima:</p>
+        <p class="temp_min col-12 p-1 m-0">Temperatura mínima:</p>
+        <p class="feels_like col-12 p-1 m-0">Sensación térmica:</p>
+        <p class="pressure col-12 p-1 m-0">Presión atmosférica:</p>
+        <p class="humidity col-12 p-1 m-0">Humedad:</p>
+        <p class="wind col-12 p-1 m-0">Velocidad del viento:</p>
+
+      </div>
+
+    </div>
+
+  </main>
+
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js" defer></script>
+</body>
+
+</html>
